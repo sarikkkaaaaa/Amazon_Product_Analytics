@@ -168,15 +168,3 @@ The table contains:
 - Product Link
 
 This allows users to move from high-level analysis to individual product details.
-
----
-
-# 📐 Key DAX Measures
-
-The dashboard uses DAX measures to create dynamic KPIs.
-
-### Total Product Listings
-
-```DAX
-Total Product Listings =
-COUNTROWS(amazon)
